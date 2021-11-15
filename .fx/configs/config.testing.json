@@ -1,0 +1,14 @@
+{
+    "$schema": "https://aka.ms/teamsfx-env-config-schema",
+    "description": "You can customize the TeamsFx config for different environments. Visit https://aka.ms/teamsfx-env-config to learn more about this.",
+    "manifest": {
+        "appName": {
+            "short": "helloworld3",
+            "full": "Full name for helloworld3"
+        }
+    },
+    "azure": {
+        "subscriptionId": "Visual Studio Enterprise Subscription",
+        "resourceGroupName": "helloworld3-dev-rg"
+    }
+}

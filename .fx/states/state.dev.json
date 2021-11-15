@@ -1,0 +1,39 @@
+{
+    "solution": {
+        "resourceNameSuffix": "c52607",
+        "resourceGroupName": "helloworld3-dev-rg",
+        "tenantId": "a47991da-9304-412b-9123-816355475c82",
+        "subscriptionId": "b65acf7c-e54d-4994-8200-ea884c854d2d",
+        "subscriptionName": "Visual Studio Enterprise Subscription",
+        "location": "East Asia",
+        "teamsAppTenantId": "{{solution.teamsAppTenantId}}",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "52c7ecc1-a4b2-48c9-9b0e-6ea2ec72115b"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "frontendstgfr7abztlvmw24.z7.web.core.windows.net",
+        "endpoint": "https://frontendstgfr7abztlvmw24.z7.web.core.windows.net",
+        "storageResourceId": "/subscriptions/b65acf7c-e54d-4994-8200-ea884c854d2d/resourceGroups/helloworld3-dev-rg/providers/Microsoft.Storage/storageAccounts/frontendstgfr7abztlvmw24"
+    },
+    "fx-resource-identity": {
+        "identityName": "helloworlddev786d03-managedIdentity",
+        "identityResourceId": "/subscriptions/b65acf7c-e54d-4994-8200-ea884c854d2d/resourceGroups/helloworld3-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/helloworlddev786d03-managedIdentity",
+        "identityClientId": "254eb00a-b999-4717-af4d-1e31afc590a5"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "6c83f323-68b2-4e80-8641-3c4c18b6a56a",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "0a3f8706-bff9-47fd-8ee5-c904558b874a",
+        "oauth2PermissionScopeId": "8b1d9279-c43b-4100-9d55-a58ba948a2bc",
+        "tenantId": "2642961f-d6b6-49a1-a79c-9638600c5943",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/2642961f-d6b6-49a1-a79c-9638600c5943",
+        "applicationIdUris": "api://frontendstgfr7abztlvmw24.z7.web.core.windows.net/6c83f323-68b2-4e80-8641-3c4c18b6a56a"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://helloworlddev786d03-simpleauth-webapp.azurewebsites.net",
+        "webAppResourceId": "/subscriptions/b65acf7c-e54d-4994-8200-ea884c854d2d/resourceGroups/helloworld3-dev-rg/providers/Microsoft.Web/sites/helloworlddev786d03-simpleAuth-webapp"
+    }
+}
